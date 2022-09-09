@@ -44,7 +44,7 @@ textarea#message{
     letter-spacing: .1px;
     border: 2px solid hsla(0,0%,100%,.2);
 }
-button.btn.contact.pointer {
+.btn {
     margin: 20px 0px;
     background-color: green;
 }

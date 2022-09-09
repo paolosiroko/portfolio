@@ -32,7 +32,7 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">tetris game</h5>
-                     <h4 className="project__text">simple tetris game</h4>
+                     <h4 className="project__text">simple tetris game //NB play with keyboard</h4>
                      <a href="https://paolosirokohostingdomain.on.drv.tw/websites/www.paolo-tetris.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
