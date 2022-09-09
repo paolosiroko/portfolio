@@ -3,7 +3,7 @@
     background-color: #010101;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .logo{
     height: 50px;
