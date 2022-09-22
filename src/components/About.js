@@ -1,50 +1,7 @@
-import React, {useState,useEffect}  from "react";
+import React, {useState}  from "react";
 import "./About.css";
 import aboutImg from "../img/paolo.jpg";
 function About() {
-//   const [loopNum, setLoopNum] = useState(0);
-//   const [isDeleting, setIsDeleting] = useState(false);
-//   const [text, setText] = useState('');
-//   const [delta, setDelta] = useState(300 - Math.random() * 100);
-//   const [index, setIndex] = useState(1);
-//   const toRotate = [ "Fullstack developer", "Django developer", "React Js developer",];
-//   const period = 500;
-
-//   useEffect(() => {
-//     let ticker = setInterval(() => {
-//       tick();
-//     }, delta);
-
-//     return () => { clearInterval(ticker) };
-//   }, [text])
-
-
-//   const tick = () => {
-//     let i = loopNum % toRotate.length;
-//     let fullText = toRotate[i];
-//     let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
-
-//     setText(updatedText);
-
-//     if (isDeleting) {
-//       setDelta(prevDelta => prevDelta / 2);
-//     }
-
-//     if (!isDeleting && updatedText === fullText) {
-//       setIsDeleting(true);
-//       setIndex(prevIndex => prevIndex - 1);
-//       setDelta(period);
-//     } else if (isDeleting && updatedText === '') {
-//       setIsDeleting(false);
-//       setLoopNum(loopNum + 1);
-//       setIndex(1);
-//       setDelta(500);
-//     } else {
-//       setIndex(prevIndex => prevIndex + 1);
-//     }
-//   }
-
-
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
       const upToTop = document.querySelector("a.bottom__to__top");
@@ -60,7 +17,6 @@ function About() {
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
-//             <h2 className="ht"> {`I'm a :`}<span className='sp'><br/>{text}</span></h2>
               <p className="about__text p__color">
               I am Paolo from Kenya.
               A creative and dynamic person with good interpersonal and communication skills.
