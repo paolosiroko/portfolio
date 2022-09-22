@@ -3,8 +3,6 @@ import "./Home.css";
 // import logo from "";
 
 function Home() {
-
-
   // fixed Header
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
@@ -12,6 +10,51 @@ function Home() {
   });
   // Toogle Menu
    const [show, setShow] = useState(false);
+  
+  
+   
+  const [loopNum, setLoopNum] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [text, setText] = useState('');
+  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [index, setIndex] = useState(1);
+  const toRotate = [ "Fullstack developer", "Django developer", "React Js developer",];
+  const period = 500;
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => { clearInterval(ticker) };
+  }, [text])
+
+
+  const tick = () => {
+    let i = loopNum % toRotate.length;
+    let fullText = toRotate[i];
+    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
+
+    setText(updatedText);
+
+    if (isDeleting) {
+      setDelta(prevDelta => prevDelta / 2);
+    }
+
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setIndex(prevIndex => prevIndex - 1);
+      setDelta(period);
+    } else if (isDeleting && updatedText === '') {
+      setIsDeleting(false);
+      setLoopNum(loopNum + 1);
+      setIndex(1);
+      setDelta(500);
+    } else {
+      setIndex(prevIndex => prevIndex + 1);
+    }
+  }
+
 
 
 
@@ -85,7 +128,8 @@ function Home() {
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME, I'm Paolo and This is my Portfolio</h1>
-              <h2 className="home__text pz__10">Fullstack Developer</h2>
+              <h2 className="home__text pz__10">{text}</h2>
+//               <h2 className="home__text pz__10">Fullstack Developer</h2>
             
             </div>
           </div>
