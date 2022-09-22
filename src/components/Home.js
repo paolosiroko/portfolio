@@ -12,7 +12,6 @@ function Home() {
    const [show, setShow] = useState(false);
   
   
-   
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
@@ -128,9 +127,8 @@ function Home() {
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME, I'm Paolo and This is my Portfolio</h1>
-              <h2 className="home__text pz__10">{text}</h2>
-//               <h2 className="home__text pz__10">Fullstack Developer</h2>
-            
+              <h2 className="home__text pz__10"> {text} </h2>
+           
             </div>
           </div>
         </div>
