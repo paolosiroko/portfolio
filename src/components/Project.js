@@ -66,7 +66,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Simple blog</h5>
                      <h4 className="project__text">blogging</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <a href="https://nairomagblog.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
