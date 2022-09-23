@@ -32,7 +32,7 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">tetris game</h5>
-                     <h4 className="project__text">simple tetris game //NB play with keyboard</h4>
+                     <h4 className="project__text">simple html,css,Js tetris game NB: plays with keyboard </h4>
                      <a href="https://paolosirokohostingdomain.on.drv.tw/websites/www.paolo-tetris.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
@@ -47,8 +47,8 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">ecommerce</h5>
-                     <h4 className="project__text">buy and sell online</h4>
+                     <h5 className="project__text">Django ecommerce</h5>
+                     <h4 className="project__text">Django,intergrated paypal API to checkout, buy and sell online</h4>
                      <a href="https://eccomerceapp.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
@@ -64,8 +64,8 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Simple blog</h5>
-                     <h4 className="project__text">blog app</h4>
+                     <h5 className="project__text">Simple Django blog</h5>
+                     <h4 className="project__text">Django blog app</h4>
                      <a href="https://nairomagblog.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
@@ -81,7 +81,7 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Barbershop</h5>
+                     <h5 className="project__text">React Barbershop</h5>
                      <h4 className="project__text">market your shop</h4>
                      <a href="https://paolosiroko.vercel.app/" className="project__btn">View Details</a>
                      </div>
@@ -98,7 +98,7 @@ function Project() {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Documentfinder</h5>
+                     <h5 className="project__text">Django Documentfinder</h5>
                      <h4 className="project__text">easily locate lost items</h4>
                      <a href="https://paolosiroko.vercel.app/" className="project__btn">View Details</a>
                      </div>
