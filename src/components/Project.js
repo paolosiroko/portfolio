@@ -49,7 +49,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">ecommerce</h5>
                      <h4 className="project__text">buy and sell online</h4>
-                     <a href="https://paolosiroko.vercel.app/" className="project__btn">View Details</a>
+                     <a href="https://eccomerceapp.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
@@ -100,7 +100,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Documentfinder</h5>
                      <h4 className="project__text">easily locate lost items</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <a href="https://paolosiroko.vercel.app/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
