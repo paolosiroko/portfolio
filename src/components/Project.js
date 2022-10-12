@@ -99,8 +99,8 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">Django Documentfinder</h5>
-                     <h4 className="project__text">easily locate lost items</h4>
-                     <a href="https://paolosiroko.vercel.app/" className="project__btn">View Details</a>
+                     <h4 className="project__text">easily locate lost items <br> username : user password: test1234 </h4>
+                     <a href="https://eventsdashboard.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
@@ -115,8 +115,8 @@ function Project() {
                      </div>
                      <div className="project__meta absolute">
                      <h5 className="project__text">Dashboard </h5>
-                     <h4 className="project__text">Django dashboard</h4>
-                     <a href="https://paolosiroko.vercel.app/" className="project__btn">View Details</a>
+                     <h4 className="project__text">Django dashboard <br> username : user password: test1234 </h4>
+                     <a href="https://eventsdashboard.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
