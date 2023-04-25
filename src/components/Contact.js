@@ -35,7 +35,7 @@ function Contact() {
                         <div className="contact__meta">
                             <h1 className="hire__text">Contact Me.</h1>
                             <p className="hire__text white">I am available for freelance work. Connect with me:</p>
-                           <p className="hire__text white"><strong>email : paolosiroko@gmail.com</strong></p>
+                           <p className="hire__text white"><strong>email me at : </strong> <strong> paolosiroko@gmail.com</strong></p>
                         </div>
                         <form className='form' ref={form} onSubmit={sendEmail}>
                         <div className="input__box">
